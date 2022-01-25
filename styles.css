@@ -1,0 +1,39 @@
+body{
+    background-color: lightgray;
+    margin: 0;
+}
+.icon-bars{
+    font-family: Calibri, sans-serif;
+    background-color: grey;
+    width: 100px;
+    height: 100vh;
+    position: relative;
+    top:0;
+    left: 0;
+    transform: translateX(-100%);
+    transition: all 0.5s linear;
+}
+.show{
+    transform: translateX(0%);
+}
+.bars{
+    position: absolute;
+    top:20px;
+    left: 120px;
+    font-size: 2.5rem;
+    color: grey;
+}
+
+.icon-bars a{
+    display: block;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 1.5rem;
+    color: white;
+}
+.icon-bars a.active{
+    background-color: seagreen;
+}
+.icon-bars a:hover{
+    background-color: black;
+}
